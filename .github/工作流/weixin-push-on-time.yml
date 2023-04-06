@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   schedule:
     # 每天国际时间 08:09 运行, 即北京时间 16:09 运行
-    - cron: '00 09 * * *'
+    - cron: '16 09 * * *'
     
 jobs:
   build:
